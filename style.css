@@ -2,7 +2,32 @@
   margin: 0;
   padding: 0;
 }
-.preparation {
-  background-color: plum;
-  padding: 20px 30px;
+button {
+  border-radius: 5px;
+  border: none;
+  padding: 20px;
+  margin: 30px;
+  background-color: palevioletred;
+  color: white;
+}
+.Categories {
+  background-color: lightgrey;
+}
+.Categories > div {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Categories > div:nth-child(1) {
+  background-image: url(./e-cormmerce/source/babycover.jpg);
+}
+.Categories > div:nth-child(2) {
+}
+.Categories > div:nth-child(3) {
+}
+.Categories > div:nth-child(4) {
+}
+.Categories > div:nth-child(5) {
+}
+.Categories > div:nth-child(6) {
 }
